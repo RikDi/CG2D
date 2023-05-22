@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1684751175 source:c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\character.c
+	<GL/gl.h>
+	"character.h"
+	"texturing.h"
+	<stdbool.h>
+
+1684751175 c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\character.h
+	<stdbool.h>
+
+1684751176 c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\texturing.h
+
+1684751175 source:c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\collision.c
+	"collision.h"
+	<GL/gl.h>
+	<stdbool.h>
+	"character.h"
+
+1684751175 c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\collision.h
+	<stdbool.h>
+	"character.h"
+
+1684752899 source:c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\main.c
+	<windows.h>
+	<gl/gl.h>
+	"menu.h"
+	"texturing.h"
+	"character.h"
+	"collision.h"
+
+1684751175 c:\users\rikdi\documents\c++ projects\lession nastavnik\lession 2\fgkljbnfg\menu.h
+
+1684751175 source:d:\desktop\สร\2d\character.c
+	<GL/gl.h>
+	"character.h"
+	"texturing.h"
+	<stdbool.h>
+
+1684751175 d:\desktop\สร\2d\character.h
+	<stdbool.h>
+
+1684751176 d:\desktop\สร\2d\texturing.h
+
+1684753772 source:d:\desktop\สร\2d\collision.c
+	"collision.h"
+	<GL/gl.h>
+	<stdbool.h>
+	"character.h"
+
+1684751175 d:\desktop\สร\2d\collision.h
+	<stdbool.h>
+	"character.h"
+
+1684751175 source:d:\desktop\สร\2d\menu.c
+	<gl/gl.h>
+	<stdio.h>
+	<stdlib.h>
+	"stb-master/stb_easy_font.h"
+	"menu.h"
+
+1684751175 d:\desktop\สร\2d\stb-master\stb_easy_font.h
+	<stdlib.h>
+	<math.h>
+
+1684751175 d:\desktop\สร\2d\menu.h
+
+1684751176 source:d:\desktop\สร\2d\texturing.c
+	"texturing.h"
+	<gl/gl.h>
+	<stdio.h>
+	<stdlib.h>
+	"stb-master/stb_image.h"
+
+1684751175 d:\desktop\สร\2d\stb-master\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1684753429 source:d:\desktop\สร\2d\main.c
+	<windows.h>
+	<gl/gl.h>
+	"menu.h"
+	"texturing.h"
+	"character.h"
+	"collision.h"
+
