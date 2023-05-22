@@ -22,14 +22,14 @@ void collision(Character *ch, float collisionMatrix[], unsigned long long matrix
 
 
 //    Отрисовка хитбокса персонажа с учётом вектора скорости
-//    glPushMatrix();
-//        glBegin(GL_LINE_LOOP);
-//            glVertex2f(x11 + ch->velocityX, 768 - (y11 + ch->velocityY));
-//            glVertex2f(x11 + ch->velocityX, 768 - (y12 + ch->velocityY));
-//            glVertex2f(x12 + ch->velocityX, 768 - (y12 + ch->velocityY));
-//            glVertex2f(x12 + ch->velocityX, 768 - (y11 + ch->velocityY));
-//        glEnd();
-//    glPopMatrix();
+    glPushMatrix();
+        glBegin(GL_LINE_LOOP);
+            glVertex2f(x11 + ch->velocityX, 768 - (y11 + ch->velocityY));
+            glVertex2f(x11 + ch->velocityX, 768 - (y12 + ch->velocityY));
+            glVertex2f(x12 + ch->velocityX, 768 - (y12 + ch->velocityY));
+            glVertex2f(x12 + ch->velocityX, 768 - (y11 + ch->velocityY));
+        glEnd();
+    glPopMatrix();
 
     for (int i = 0; i < matrixSize/sizeof(float); i+=4)
     {
